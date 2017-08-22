@@ -1,0 +1,10 @@
+<import src="../movie-template/movie-template.wxml" />
+<template name="moreShow">
+<scroll-view class="more-contain" scroll-y="true" scroll-x="false" bindscrolltolower = "onScrollLower">
+  <block wx:for="{{movie}}" wx:for-item="movies"> 
+      <view class="list">
+        <template is="movie" data="{{...movies}}"></template>
+      </view>
+  </block>
+</scroll-view>
+</template>

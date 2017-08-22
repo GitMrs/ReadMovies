@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.ava-toar{
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 160rpx;
+  border-radius: 200rpx;  
+}
+.user-name{
+  font-family: microSofe Yahei;
+  font-size: 32repx;
+  font-weight: bold;
+  margin-top: 50rpx;
+}
+.moto-container{
+  margin-top: 30rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 300rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  text-align: center;  
+}
+.moto{
+  font-family: microSofe Yahei;
+  font-size: 12repx;
+  font-weight: none;
+}
+page{
+  width: 100%;
+  height: 100%;
+  background: lightseagreen; 
+}

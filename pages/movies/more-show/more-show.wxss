@@ -1,0 +1,10 @@
+/* more-show.wxss */
+@import "../movie-template/movie-template.wxss";
+.list{
+  float: left;
+  margin-bottom: 40rpx;
+}
+.more-contain{
+  height: 1300rpx;
+  margin: 40rpx 0 40rpx 20rpx;
+}

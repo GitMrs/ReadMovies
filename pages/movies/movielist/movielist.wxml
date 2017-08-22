@@ -1,0 +1,22 @@
+<import src="../movie-template/movie-template.wxml" />
+<template name="movelist">
+  <view class="movielist-container">
+    <view class="inner-container">
+    <view class="movie-header">
+      <text class="soling">{{Mtitle}}</text>
+      <view catchtap="moreTop" class="more" data-list="{{Mtitle}}">
+        <text class="movie-text">更多</text>
+        <image class="movielist-img" src="/images/icon/arrow-right.png"></image>
+      </view>
+    </view>
+    <view class="movies-container">
+    <block wx:for="{{movies}}" wx:for-item="movie">
+      <template is="movie" data="{{...movie}}"></template>
+    </block>
+    <!-- <template is="movie"></template>
+    <template is="movie"></template>
+    <template is="movie"></template> -->
+    </view>
+    </view>
+  </view>
+</template>

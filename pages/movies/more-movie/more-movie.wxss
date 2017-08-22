@@ -1,0 +1,2 @@
+/* more-movie.wxss */
+@import "../more-show/more-show.wxss";

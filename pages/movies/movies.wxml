@@ -1,0 +1,10 @@
+<import src="movielist/movielist.wxml" />
+<view class="search">
+  <icon class="icon" type="search" size="13" color="#405f80" />
+  <input type="text" placeholder="战狼、你的名字" placeholder-class="placeholder" bindfocus="onBindFocus" bind/>
+</view>
+<view class="">
+    <template is="movelist" data="{{...inTheater}}" ></template>
+    <template is="movelist" data="{{...commingSoon}}"></template>
+    <template is="movelist" data="{{...top250}}"></template>
+</view>

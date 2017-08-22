@@ -1,0 +1,18 @@
+/* movies.wxss */
+@import "movielist/movielist.wxss";
+.search{
+  padding: 10rpx 50rpx;
+  position: relative;
+  background: lightyellow;
+  border-bottom: 1xp solid #ccc;
+}
+.icon{
+  position: absolute;
+  left: 60rpx;
+  border-radius: 10rpx;
+  top: 25rpx;
+}
+.search input{
+  border: 1px solid #ccc;
+  padding-left: 50rpx;
+} 

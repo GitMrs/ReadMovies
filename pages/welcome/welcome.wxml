@@ -1,0 +1,8 @@
+
+<view class="container">
+  <image class="ava-toar" src="/imgs/navhead.jpg"></image>
+  <text class="user-name"> <text>hello</text>  world</text>
+  <view class="moto-container" bindtap="onTap">
+    <text class="moto">点击进入</text>
+  </view>
+</view>

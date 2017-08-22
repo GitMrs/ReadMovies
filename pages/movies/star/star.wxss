@@ -1,0 +1,20 @@
+/* start.wxss */
+.star-container{
+  display: flex;
+  flex-direction: row;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    height: 17rpx;
+    margin-right: 24rpx;
+    margin-top: 6rpx;
+}
+.star image{
+    padding-left: 3rpx;
+    height: 17rpx;
+    width: 17rpx;
+}
+.star-score{
+  color: #ccc;
+}
